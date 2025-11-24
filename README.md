@@ -33,5 +33,38 @@ You can define initial accounts inside `initAccounts()`:
 
 ---
 
-## 📂 Project Structure
+---
+
+## 🖼️ Screenshots
+
+### 📌 ATM Login Screen
+![Screenshot](https://raw.githubusercontent.com/anwarul9999/atm-simulator-using-c/72a2417831e02544de9e60e33c25c696bf538227/Screenshot%202025-11-24%20151255.png)
+
+---
+
+### 📌 Account Selection / Menu
+![Screenshot](https://raw.githubusercontent.com/anwarul9999/atm-simulator-using-c/72a2417831e02544de9e60e33c25c696bf538227/Screenshot%202025-11-24%20151350.png)
+
+---
+
+### 📌 Balance Inquiry
+![Screenshot](https://raw.githubusercontent.com/anwarul9999/atm-simulator-using-c/72a2417831e02544de9e60e33c25c696bf538227/Screenshot%202025-11-24%20151451.png)
+
+---
+
+### 📌 Withdrawal Screen
+![Screenshot](https://raw.githubusercontent.com/anwarul9999/atm-simulator-using-c/72a2417831e02544de9e60e33c25c696bf538227/Screenshot%202025-11-24%20151503.png)
+
+---
+
+### 📌 Mini Statement
+![Screenshot](https://raw.githubusercontent.com/anwarul9999/atm-simulator-using-c/72a2417831e02544de9e60e33c25c696bf538227/Screenshot%202025-11-24%20151513.png)
+
+---
+
+### 📌 Change PIN
+![Screenshot](https://raw.githubusercontent.com/anwarul9999/atm-simulator-using-c/72a2417831e02544de9e60e33c25c696bf538227/Screenshot%202025-11-24%20151526.png)
+
+---
+
 
