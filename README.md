@@ -1,147 +1,88 @@
-# atm-simulator-using-c
+# ATM Simulation Project 
 
-# ATM Management System in C
+## 📌 Overview
 
-A simple, menu-driven **ATM Simulation Project** built using **pure C
-language**.\
-This program runs in the terminal and simulates real ATM operations like
-balance inquiry, withdrawals, deposits, money transfer, mini-statement,
-and PIN change --- all in an interactive and user-friendly format.
+This project is a simple **ATM Simulator** written in **C language**.\
+It includes basic banking operations such as checking balance,
+depositing cash, withdrawing cash, viewing mini statements, changing ATM
+PIN, tracking monthly expenses, adding cashback rewards, and logging
+out.
 
-------------------------------------------------------------------------
+This project is suitable for **beginners**, **college assignments**, or
+**mini-project submissions**.
 
-## 🚀 Features
+## ✨ Features
 
-### 🔐 **User Authentication**
+### ✅ 1. Balance Inquiry
 
--   Secure login using a 4-digit PIN\
--   Maximum **3 attempts** to prevent unauthorized access\
--   Multi-account support
+Shows the current available balance in the user account.
 
-### 🏦 **ATM Operations**
+### ✅ 2. Cash Deposit
 
--   ✔ Balance Inquiry\
--   ✔ Cash Withdrawal (multiple of ₹100)\
--   ✔ Cash Deposit\
--   ✔ Mini Statement (last 10 transactions)\
--   ✔ Change ATM PIN\
--   ✔ Logout
+Allows the user to deposit money into the account and updates the
+balance.
 
-### 🆕 **Newly Added Features**
+### ✅ 3. Cash Withdrawal
 
--   ✔ **Money Transfer** between accounts\
--   ✔ **View Account Profile** (Account No., Name, Balance, Total
-    Transactions)\
--   ✔ **Close Account** (Soft delete option)\
--   ✔ **Transaction History Storage**\
--   ✔ **Dynamic Balance Update**
+User can withdraw money if sufficient balance is available.
 
-------------------------------------------------------------------------
+### ✅ 4. Mini Statement
 
-## 📌 Preloaded Sample Accounts
+Displays the last few transactions (deposits & withdrawals).
 
-You can define initial accounts inside `initAccounts()`:
+### ✅ 5. Change ATM PIN
 
-  Account No.   Name       PIN    Balance
-  ------------- ---------- ------ ---------
-  1001          Anwarul    1234   50,000
-  1002          Deva       1111   40,000
-  1003          Priyansu   2222   35,000
+User can update their ATM PIN securely.
 
-------------------------------------------------------------------------
+### ✅ 6. Monthly Expense Graph
 
-## 🖼️ Screenshots
+Shows a simple ASCII/character-based graph of monthly expenses.
 
-### 📌 ATM Login Screen
+### ✅ 7. Add Cashback
 
-![Screenshot](https://raw.githubusercontent.com/anwarul9999/atm-simulator-using-c/72a2417831e02544de9e60e33c25c696bf538227/Screenshot%202025-11-24%20151255.png)
+User receives a cashback amount added to their balance.
 
-------------------------------------------------------------------------
+### ✅ 8. Logout
 
-### 📌 Account Selection / Menu
+Securely exits the ATM system.
 
-![Screenshot](https://raw.githubusercontent.com/anwarul9999/atm-simulator-using-c/72a2417831e02544de9e60e33c25c696bf538227/Screenshot%202025-11-24%20151350.png)
+## 📁 Project Structure
 
-------------------------------------------------------------------------
-
-### 📌 Balance Inquiry
-
-![Screenshot](https://raw.githubusercontent.com/anwarul9999/atm-simulator-using-c/72a2417831e02544de9e60e33c25c696bf538227/Screenshot%202025-11-24%20151451.png)
-
-------------------------------------------------------------------------
-
-### 📌 Withdrawal Screen
-
-![Screenshot](https://raw.githubusercontent.com/anwarul9999/atm-simulator-using-c/72a2417831e02544de9e60e33c25c696bf538227/Screenshot%202025-11-24%20151503.png)
-
-------------------------------------------------------------------------
-
-### 📌 Mini Statement
-
-![Screenshot](https://raw.githubusercontent.com/anwarul9999/atm-simulator-using-c/72a2417831e02544de9e60e33c25c696bf538227/Screenshot%202025-11-24%20151513.png)
-
-------------------------------------------------------------------------
-
-### 📌 Change PIN
-
-![Screenshot](https://raw.githubusercontent.com/anwarul9999/atm-simulator-using-c/72a2417831e02544de9e60e33c25c696bf538227/Screenshot%202025-11-24%20151526.png)
-
-------------------------------------------------------------------------
-
-## 📂 Project Structure
-
-    atm-simulator-using-c/
+    /ATM-Simulation
     │
-    ├── atm.c               # Main program file
-    ├── accounts.h          # Header file for account structure & functions
-    ├── transactions.h      # Header file for transaction handling
-    ├── README.md           # Project documentation
-    └── screenshots/        # Project screenshots (optional folder)
+    ├── atm.c           → Main C program
+    ├── readme.md       → Project documentation
+    └── transactions.txt → (Optional) To store mini statement data
 
-------------------------------------------------------------------------
+## 🔧 Technologies Used
 
-## 🛠️ Technologies Used
+-   C language
+-   Arrays\
+-   Functions\
+-   Structures\
+-   File handling (optional)
 
--   **C Language** (Core implementation)
--   **Standard Library (stdio.h, string.h, stdlib.h)**
--   **Console-based UI**
+## ▶️ How to Run
 
-------------------------------------------------------------------------
-
-## 📥 Installation & Run Instructions
-
-### **1. Clone this repository**
-
-    git clone https://github.com/anwarul9999/atm-simulator-using-c.git
-
-### **2. Navigate into the folder**
-
-    cd atm-simulator-using-c
-
-### **3. Compile the program**
+### Using GCC
 
     gcc atm.c -o atm
-
-### **4. Run the program**
-
     ./atm
 
-------------------------------------------------------------------------
+### Using Windows CMD
 
-## 🔮 Future Improvements
+    gcc atm.c -o atm.exe
+    atm.exe
 
--   File handling for saving accounts permanently\
--   Admin control panel\
--   GUI version\
--   Export mini-statement to text file\
--   Add card number system
+## 📌 Future Enhancements
 
-------------------------------------------------------------------------
+-   Add multiple user accounts\
+-   Add admin panel\
+-   Use file handling for persistent storage\
+-   Add login using account number and PIN\
+-   Add online banking features
 
-## 🧑‍💻 Author
+## 👨‍💻 Author
 
-**Anwarul Haque**\
-B.Tech CSE -- Centurion University\
-GitHub: https://github.com/anwarul9999
-
-------------------------------------------------------------------------
+**Anwarul Haque Khan**
+B.Tech CSE, Centurion University, Bhubaneswar
