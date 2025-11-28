@@ -60,3 +60,49 @@ Securely exits the ATM system.
 
 ## 📁 Project Structure
 
+
+---
+
+## 🔧 Technologies Used
+
+- **C language**
+- **Functions**
+- **Arrays**
+- **Loops & conditional statements**
+- **Structures**
+- **File Handling** *(optional)*
+
+---
+
+## ▶️ How to Run
+
+### **Using GCC (Linux / Mac / Windows with MinGW)**
+
+
+### **Using Windows CMD (if .exe created)**
+
+
+---
+
+## 📌 Future Enhancements
+
+- Add multiple user accounts  
+- Add admin panel  
+- Use file handling for permanent data storage  
+- Add account number + PIN login  
+- Add fund transfer between users  
+- Add UI improvements  
+
+---
+
+## 👨‍💻 Author
+
+**Anwarul Haque Khan**  
+B.Tech CSE, Centurion University, Bhubaneswar  
+
+---
+
+
+
+
+
