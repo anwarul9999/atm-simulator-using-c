@@ -74,16 +74,6 @@ Securely exits the ATM system.
 
 ---
 
-## ▶️ How to Run
-
-### **Using GCC (Linux / Mac / Windows with MinGW)**
-
-
-### **Using Windows CMD (if .exe created)**
-
-
----
-
 ## 📌 Future Enhancements
 
 - Add multiple user accounts  
